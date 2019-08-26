@@ -12,7 +12,7 @@ public class Car {
     private String releaseYear;
     private String model;
 
-    @OneToOne()
+    @OneToOne
     @JoinColumn(name = "driver_id")
     private Driver driver;
 
